@@ -28,11 +28,11 @@ rootProject.buildscript {
             }
         }
         maven {
-            url "https://repository.springsource.com/maven/bundles/release"
+            url "https://ceoifung.github.io/rosjava_center/"
         }
-        maven {
-            url "https://repository.springsource.com/maven/bundles/external"
-        }
+        // maven {
+        //     url "https://repository.springsource.com/maven/bundles/external"
+        // }
         if (rosMavenRepository != null) {
             maven {
                 url rosMavenRepository

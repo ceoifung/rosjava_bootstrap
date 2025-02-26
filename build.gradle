@@ -35,11 +35,11 @@ subprojects {
   repositories {
     jcenter()
     maven {
-      url "http://repository.springsource.com/maven/bundles/release"
+      url "https://ceoifung.github.io/rosjava_center/"
     }
-    maven {
-      url "http://repository.springsource.com/maven/bundles/external"
-    }
+    // maven {
+    //   url "http://repository.springsource.com/maven/bundles/external"
+    // }
   }
 
   // Configuration of the deployment repository is copied from the RosPlugin.
