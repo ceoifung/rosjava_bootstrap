@@ -28,7 +28,7 @@ rootProject.buildscript {
             }
         }
         maven {
-            url "https://ceoifung.github.io/rosjava_center/"
+            url "http://192.168.3.109/rosjava"
         }
         // maven {
         //     url "https://repository.springsource.com/maven/bundles/external"
@@ -42,7 +42,7 @@ rootProject.buildscript {
             url "https://github.com/rosjava/rosjava_mvn_repo/raw/master"
         }
         google()
-        jcenter()
+        // jcenter()
     }
     dependencies {
         classpath "org.ros.rosjava_bootstrap:gradle_plugins:[0.3,0.4)"

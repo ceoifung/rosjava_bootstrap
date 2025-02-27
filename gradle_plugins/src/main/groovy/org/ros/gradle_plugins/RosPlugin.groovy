@@ -50,12 +50,12 @@ class RosPlugin implements Plugin<Project> {
       }
       mavenLocal()
       maven {
-        url "https://ceoifung.github.io/rosjava_center/"
+        url "http://192.168.3.109/rosjava"
       }
       // maven {
       //   url "http://repository.springsource.com/maven/bundles/external"
       // }
-      jcenter()
+      // jcenter()
     }
   }
 }
