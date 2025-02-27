@@ -50,7 +50,7 @@ git clone https://github.com/ceoifung/rosjava_bootstrap
 
 # 将自己的message消息放到catkin_ws/src里面
 # 启动docker
-docker run --rm -it -v ~/catkin_ws:/home/catkin_ws rosjava-ceoifung:latest /bin/bash
+docker run --rm -it -v ~/catkin_ws:/home/catkin_ws ceoifung/rosjava-ceoifung:latest /bin/bash
 
 # 进入镜像之后
 cd /home/catkin_ws
